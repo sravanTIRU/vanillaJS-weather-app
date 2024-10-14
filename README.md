@@ -40,13 +40,14 @@ This is a simple weather application built with Vanilla JavaScript that allows u
 To fetch weather data, you need an API key from OpenWeatherMap. Follow these steps to set it up:
 
 1. Go to [OpenWeatherMap](https://openweathermap.org/api) and sign up for an API key.
-2. Create a file named `config.js` in the project root and add the following line:
+2. Create a file named `config.js` in js folder inside root folder. Example path '/js/config.js':
+3. insert the following line of code.
 
    ```javascript
    export const APP_ID = 'your_api_key_here';
    ```
 
-3. Replace `'your_api_key_here'` with your actual API key.
+4. Replace `'your_api_key_here'` with your actual API key.
 
 ## Usage
 
