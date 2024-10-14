@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <title>Weather App | Vanilla JS</title>
+</head>
+<body>
+
+    <div class="container" id="main-container">
+        <div class="header">
+            <h1>Weather Tracker app: Live Updates</h1>
+            <p>Using vanilla javascript and weather API</p>
+        </div>
+        <div class="location">
+            <h1 class="location-timezone">
+                Your Location Timezone
+            </h1>
+            <canvas class="icon" width="128" height="128"></canvas>
+        </div>
+        
+        <div class="temperature">
+            <div class="degree-section">
+                <h2 class="temperature-degree">0</h2>
+                <button class="change-scale">Change Scale</button>
+            </div>
+            <div class="temperature-description">
+                Weather Description
+            </div>
+        </div>
+        <a class="api-call" href="https://openweathermap.org/" target="_blank">
+            API taken from openWeatherMap.org 
+        </a>
+        <p class="me">sravan teja gudimella | MCA | Frontend Web Developer</p>
+        <a href="#" class="source">VIEW SOURCE CODE</a>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="https://darkskyapp.github.io/skycons/skycons.js" defer></script>
+    <script type="module" src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Config files
+js/config.js
+
+# utility files
+util/openweathermap_api_response_fields.md
+
+# OS specific files
+.DS_Store
